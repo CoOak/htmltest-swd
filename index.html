@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        .section{
+            width: 100%;
+            height: 100vh;
+        }
+        .section:nth-child(even){
+            background-color: aquamarine;
+        }
+      
+    </style>
+</head>
+<body>
+
+<div id="e">
+    <a href="#home" class="nav-link">home</a>
+    <a href="#services" class="nav-link">services</a>
+    <a href="#contact" class="nav-link">contact</a>
+</div>
+
+
+    <section class="section" id="home">
+        <h1>This is home</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto porro, minima dolor suscipit ipsa natus dolores eos nihil dolorum vel eveniet tempore pariatur ullam ex ad quasi. Non, neque!</p>
+
+        <a href="#services" class="nav-link">services</a>
+        <a href="#contact" class="nav-link">contact</a>
+        <a href="#e">top</a>
+    </section>
+    <section class="section" id="services">
+        <h1>This is services</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto porro, minima dolor suscipit ipsa natus dolores eos nihil dolorum vel eveniet tempore pariatur ullam ex ad quasi. Non, neque!</p>
+        <a href="#home" class="nav-link">home</a>
+        
+        <a href="#contact" class="nav-link">contact</a>
+        <a href="#e">top</a> 
+    </section>
+    <section class="section" id="contact">
+        <h1>This is contact</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto porro, minima dolor suscipit ipsa natus dolores eos nihil dolorum vel eveniet tempore pariatur ullam ex ad quasi. Non, neque!</p>
+        <a href="#home" class="nav-link">home</a>
+        <a href="#services" class="nav-link">services</a>
+   
+        <a href="#e">top</a>
+    </section>
+</body>
+</html>
